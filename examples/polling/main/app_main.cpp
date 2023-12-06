@@ -6,8 +6,8 @@
 
 /* config */
 #define I2C_PORT I2C_NUM_0
-#define PIN_SDA GPIO_NUM_21
-#define PIN_SCL GPIO_NUM_22
+#define PIN_SDA GPIO_NUM_08
+#define PIN_SCL GPIO_NUM_09
 
 #include "app_log.h"
 
