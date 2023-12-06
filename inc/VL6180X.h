@@ -59,8 +59,8 @@ public:
     *pRangeMilliMeter = Range.range_mm;
     return true;
   }
-  void i2cMasterInit(gpio_num_t pin_sda = GPIO_NUM_08,
-                     gpio_num_t pin_scl = GPIO_NUM_09, uint32_t freq = 400000) {
+  void i2cMasterInit(gpio_num_t pin_sda = GPIO_NUM_8,
+                     gpio_num_t pin_scl = GPIO_NUM_9, uint32_t freq = 400000) {
     static i2c_config_t conf;
     conf.mode = I2C_MODE_MASTER;
     conf.sda_io_num = pin_sda;
